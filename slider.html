@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="stylesheet" href="main.css" type="text/css" />
+<script src="jquery.js"></script>
+<script src="slider.js"></script>
+<script>
+jQuery(window).load(function() {
+    $('#test').MySlider(3000); //attaches function to #test div
+});
+</script>
+</head>
+<body>
+<div id="testdiv">
+<ul id="test">
+    <li><img class="slide" id="slide1" src="pic1.jpg"/></li>
+    <li><img class="slide" id="slide2" src="pic2.jpg"/></li>
+    <li><img class="slide" id="slide2" src="pic3.jpg"/></li>
+    <li><img class="slide" id="slide2" src="pic4.jpg"/></li>
+</ul>
+</div>
+</body>
+</html>
